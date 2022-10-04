@@ -57,7 +57,7 @@ export class BalancesComponent implements OnInit {
         }
       },
       title: {
-        text: 'Balances'
+        text: 'Ejemplo por linea'
       }
     };
     this.barGraph = {
@@ -99,7 +99,7 @@ export class BalancesComponent implements OnInit {
         }
       },
       title: {
-        text: 'Balances'
+        text: 'Ejemplo por barra'
       }
     };
   }

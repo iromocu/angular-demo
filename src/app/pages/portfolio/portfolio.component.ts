@@ -32,7 +32,7 @@ export class PortfolioComponent implements OnInit {
         type: "line"
       },
       title: {
-        text: "My First Angular Chart"
+        text: "Ejemplo de pestaña por año"
       },
       xaxis: {
         categories: ["2015", "2016", "2017", "2018", "2019", "2020","2021","2022"]
@@ -53,7 +53,7 @@ export class PortfolioComponent implements OnInit {
         type: "line"
       },
       title: {
-        text: "My First Angular Chart"
+        text: "Ejemplo de pestaña por mes"
       },
       xaxis: {
         categories: ["Jan", "Feb",  "Mar",  "Apr",  "May",  "Jun",  "Jul",  "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -74,7 +74,7 @@ export class PortfolioComponent implements OnInit {
         type: "line"
       },
       title: {
-        text: "My First Angular Chart"
+        text: "Ejemplo de pestaña por semana"
       },
       xaxis: {
         categories: ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"]
