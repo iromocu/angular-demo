@@ -24,7 +24,7 @@ export class PortfolioComponent implements OnInit {
       series: [
         {
           name: "My-series",
-          data:  this.randomService.getRandomData(12)
+          data:  this.randomService.getRandomData(8)
         }
       ],
       chart: {
@@ -35,7 +35,7 @@ export class PortfolioComponent implements OnInit {
         text: "My First Angular Chart"
       },
       xaxis: {
-        categories: ["Jan", "Feb",  "Mar",  "Apr",  "May",  "Jun",  "Jul",  "Aug", "Sep"]
+        categories: ["2015", "2016", "2017", "2018", "2019", "2020","2021","2022"]
       },
       stroke: {
         curve:'smooth'
@@ -45,7 +45,7 @@ export class PortfolioComponent implements OnInit {
       series: [
         {
           name: "My-series",
-          data:  this.randomService.getRandomData(7)
+          data:  this.randomService.getRandomData(12)
         }
       ],
       chart: {
@@ -66,7 +66,7 @@ export class PortfolioComponent implements OnInit {
       series: [
         {
           name: "My-series",
-          data:  this.randomService.getRandomData(12)
+          data:  this.randomService.getRandomData(7)
         }
       ],
       chart: {
@@ -77,7 +77,7 @@ export class PortfolioComponent implements OnInit {
         text: "My First Angular Chart"
       },
       xaxis: {
-        categories: ["Jan", "Feb",  "Mar",  "Apr",  "May",  "Jun",  "Jul",  "Aug", "Sep", "Oct", "Nov", "Dec"]
+        categories: ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"]
       },
       stroke: {
         curve:'smooth'

@@ -6,8 +6,18 @@
     height: 50px;
     text-align: right;
 }
+.version{
+    display: block;
+}
 .id-bio{
     width: 100px;
+}
+.git{
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #601c61;
 }
 
 @media (max-width: 1020px) {
