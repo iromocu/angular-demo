@@ -38,7 +38,7 @@ export class SharesComponent implements OnInit {
         width: [0, 4]
       },
       title: {
-        text: "Traffic Sources"
+        text: "Ejemplo de gráfica mixta"
       },
       dataLabels: {
         enabled: true,

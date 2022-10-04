@@ -28,7 +28,7 @@ export class DashboardComponent {
         type: "bar"
       },
       title: {
-        text: "My First Angular Chart"
+        text: "Ejemplo de una gráfica de barras"
       },
       xaxis: {
         categories: ["Jan", "Feb",  "Mar",  "Apr",  "May",  "Jun",  "Jul",  "Aug", "Sep"],
@@ -49,7 +49,7 @@ export class DashboardComponent {
         type: "line"
       },
       title: {
-        text: "My First Angular Chart"
+        text: "Ejemplo de una gráfica de lineas"
       },
       xaxis: {
         categories: ["Jan", "Feb",  "Mar",  "Apr",  "May",  "Jun",  "Jul",  "Aug", "Sep"]
