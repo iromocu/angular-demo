@@ -1,0 +1,10 @@
+<div class="left-bar" id="navMenuPrincipal">
+    <div class="menu">
+         <span (click)="ocultarMenu()" *ngFor="let item of menuItems" class="menu-itm"
+               routerLinkActive="active" [routerLink]="item.key">
+               <mat-icon>{{item.icon}}</mat-icon>
+               {{item.description}}
+         </span>
+         <hr>
+    </div>
+ </div>

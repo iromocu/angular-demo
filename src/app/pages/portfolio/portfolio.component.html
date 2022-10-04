@@ -1,0 +1,24 @@
+
+<mat-card class="relative">
+    <div class=" mt-4 flex justify-between">
+        <mat-card>
+            <mat-tab-group mat-align-tabs="center">
+                <mat-tab label="Anual">
+                    <ng-template matTabContent>
+                        <app-charts [chartConf]="lineGraph"></app-charts>
+                    </ng-template>
+                </mat-tab>
+                <mat-tab label="Mensual">
+                    <ng-template matTabContent>
+                        <app-charts [chartConf]="lineGraph2"></app-charts>
+                    </ng-template>
+                </mat-tab>
+                <mat-tab label="Semanal">
+                    <ng-template matTabContent>
+                        <app-charts [chartConf]="lineGraph3"></app-charts>
+                    </ng-template>
+                </mat-tab>
+            </mat-tab-group>
+        </mat-card>
+    </div>
+</mat-card>
